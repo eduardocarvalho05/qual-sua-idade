@@ -1,11 +1,14 @@
 body {
     background-color: rgb(0, 79, 128);
     font: normal 15pt arial;
+    margin-top: 200px;
 }
 
 header {
     color: white;
     text-align: center;
+    font-size: 20px;
+    font-style: italic;
 }
 
 
@@ -17,6 +20,7 @@ section {
     margin: auto;
     box-shadow: 5px 5px 10px black;
     text-align: center;
+    font-size: 25px;
 }
 
 img {
@@ -28,8 +32,25 @@ footer {
     color: white;
     text-align: center;
     font-style: italic;
+    font-size: 20px;
 }
 
-#id567 {
-    color: rgba(0, 0, 0, 0.488);
+.anoNasc {
+    width: 80px;
+}
+
+@media(max-width:450px) {
+
+    header {
+        font-size: 15px;
+    }
+
+    section {
+        font-size: 15px;
+        width: 290px;
+    }
+
+    footer {
+        font-size: 15px;
+    }
 }
